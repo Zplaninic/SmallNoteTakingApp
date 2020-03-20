@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Simple note taking app</h1>
+    <form>
+        <textarea name="noteText" class="noteText" cols="60" rows="10"></textarea>
+        <select name="noteColor" id="noteColor">
+            <option value="none">Select color</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option> 
+        </select>
+        <button id="addNote">Add note</button>
+    </form>
+
+    <div id="notes"></div>
+
+  </body>
+
+    <script type="text/javascript" src="noteapp.js"></script>
+  </body>
+</html>
